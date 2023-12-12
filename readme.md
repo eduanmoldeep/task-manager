@@ -69,3 +69,9 @@ sample JSON request -
     "id": 1,
 }
 ```
+
+## Future Scope
+
+[ ]  Add Authentication - Basic Token based auth.
+
+[ ] Add HTTP Status Code headers along with responses.
