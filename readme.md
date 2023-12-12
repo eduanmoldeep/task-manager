@@ -14,44 +14,58 @@ CREATE TABLE tasks (
 
 ## API Documentation
 
-[Postman Collection](https://api.postman.com/collections/12486414-f0cd6a6e-0c10-407d-b361-a736ba276790?access_key=PMAT-01HHFHCWB16208S9TRYC9NB07W)
+Clone this [Postman Collection](https://api.postman.com/collections/12486414-f0cd6a6e-0c10-407d-b361-a736ba276790?access_key=PMAT-01HHFHCWB16208S9TRYC9NB07W) to easily test the API
 
 ### READ all Tasks
 
 URL - http://localhost/task-manager/
+
 Method - GET
 
 ### READ Task
 
 URL - http://localhost/task-manager/?id=1
+
 Method - GET
 
 ### CREATE
 
 URL - http://localhost/task-manager/
+
 Method - POST
+
 sample JSON request -
+```
 {  
- "title":"First Post",
-"description":"Feeling Excited"
+    "title":"First Post",
+    "description":"Feeling Excited"
 }
+```
 
 ### UPDATE
 
 URL - http://localhost/task-manager/
+
 Method - PUT
+
 sample JSON request -
+```
 {
-"id": 1,
-"title":"Hello",
-"description":"World is here"
+    "id": 1,
+    "title":"Hello",
+    "description":"World is here"
 }
+```
 
 ### DELETE
 
 URL - http://localhost/task-manager/
+
 Method - DELETE
+
 sample JSON request -
+```
 {
-"id": 1,
+    "id": 1,
 }
+```
